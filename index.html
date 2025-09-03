@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfolio of Vaishnavi - Web Developer, Projects, Skills, and Contact Information.">
+	<title>Vaishnavi's Portfolio</title>
+	<link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+    <script src="script.js"></script>
+	<header>
+		<nav role="navigation" aria-label="Main Navigation">
+			<ul>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<h1>Vaishnavi</h1>
+		<p>Web Developer &amp; Designer</p>
+	</header>
+
+	<main>
+		<section id="about-me" aria-labelledby="about-me-heading">
+			<h2 id="about-me-heading">About Me</h2>
+			<p>Hello! I'm Vaishnavi, a passionate web developer with experience in building accessible and responsive websites. I love creating user-friendly digital experiences and learning new technologies.</p>
+		</section>
+
+		<section id="projects" aria-labelledby="projects-heading">
+			<h2 id="projects-heading">Projects</h2>
+			<article>
+				<figure>
+					<img src="project1.jpg" alt="Screenshot of Project 1: Personal Blog Website" />
+					<figcaption>Personal Blog Website</figcaption>
+				</figure>
+				<h3>Personal Blog</h3>
+				<p>A responsive blog platform built with HTML, CSS, and JavaScript. Features include user authentication and a rich text editor.</p>
+			</article>
+			<article>
+				<figure>
+					<img src="project2.jpg" alt="Screenshot of Project 2: E-commerce Store" />
+					<figcaption>E-commerce Store</figcaption>
+				</figure>
+				<h3>E-commerce Store</h3>
+				<p>An online store with shopping cart functionality, product search, and secure checkout process.</p>
+			</article>
+		</section>
+
+		<section id="skills" aria-labelledby="skills-heading">
+			<h2 id="skills-heading">Skills</h2>
+			<ul>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>JavaScript</li>
+				<li>React</li>
+				<li>Accessibility (a11y)</li>
+				<li>Responsive Design</li>
+				<li>Git &amp; GitHub</li>
+			</ul>
+		</section>
+
+		<section id="contact" aria-labelledby="contact-heading">
+			<h2 id="contact-heading">Contact</h2>
+			<form action="#" method="post" aria-label="Contact Form">
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required />
+				</div>
+				<div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required />
+				</div>
+				<div>
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" rows="5" required></textarea>
+				</div>
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2025 Vaishnavi. All rights reserved.</p>
+	</footer>
+</body>
+</html>
